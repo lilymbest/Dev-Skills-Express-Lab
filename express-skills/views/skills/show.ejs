@@ -11,5 +11,9 @@
     <h1>Skill #<%= skillNum + 1%></h1>
     <h3><%= skill.skill %></h3>
     <h3>Learned: <%= skill.learned ? 'You so smart!' : 'Not yet!' %> </h3>
+            <form action="/skills/<%= skill.idx - 1 %>?_method=DELETE" method="POST" class="delete-skill">
+                <button type="submit">Delete Skill</button>
+            </form> 
+            
 </body>
 </html>

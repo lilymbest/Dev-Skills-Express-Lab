@@ -5,23 +5,33 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  text-decoration: none;
+  color: black;
 }
 
-li {
-  color: darkorchid;
+#new {
+  border: 2px solid green;
 }
 
-#delete-form {
+a:hover {
+  color: darkgray;
+}
+
+.delete-form {
   display: inline-block;
   margin-right: 10px;
 }
 
-#delete-form button {
+.delete-form button {
   color: red;
+  display: inline-block;
 }
 
 li {
   list-style: none;
+  width: 100%;
 }
 
+.delete-skill button {
+  color: red;
+}
